@@ -1,0 +1,24 @@
+.feature-section{
+    margin:100px 0;
+}
+.feature-cart{
+    border: none;
+    border-radius: 20px;
+    height: 96px;
+    background-color:#072A5F;
+    color:#fff;
+
+}
+.icon{
+    font-size:58px;
+    color:#fff;
+    margin-right:10px;
+}
+.feature-cart:hover{
+    border:3px solid #072A5F;
+    background-color:#fff;
+    color:#072A5F;
+}
+.feature-cart:hover .icon{
+    color:#072A5F;
+}

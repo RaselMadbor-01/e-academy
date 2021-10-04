@@ -1,0 +1,46 @@
+[{
+    "id": 1,
+    "name": "Graphic design",
+    "price": "$1200",
+    "image": "https://i.imgur.com/1Qs0AFq.png"
+  }, {
+    "id": 2,
+    "name": "Web development",
+    "price": "$20000",
+    "image": "https://i.imgur.com/nPZvdYG.png"
+  }, {
+    "id": 3,
+    "name": "Photography",
+    "price": "$15000",
+    "image": "https://i.imgur.com/mFy3gkM.png"
+  }, {
+    "id": 4,
+    "name": "Marketing",
+    "price": "$25000",
+    "image": "https://i.imgur.com/1s4Wfn1.png"
+  }, {
+    "id": 5,
+    "name": "English Learning",
+    "price": "$15000",
+    "image": "https://i.imgur.com/RHZkYEW.png"
+  }, {
+    "id": 6,
+    "name": "Business studies",
+    "price": "$25000",
+    "image": "https://i.imgur.com/Ncrzguj.png"
+  }, {
+    "id": 7,
+    "name": "Design & Branding",
+    "price": "$16000",
+    "image": "https://i.imgur.com/KdllDnK.png"
+  }, {
+    "id": 8,
+    "name": "Basic HTML",
+    "price": "$6000",
+    "image": "https://i.imgur.com/l1c1sko.png"
+  }, {
+    "id": 9,
+    "name": "WordPress",
+    "price": "$20000",
+    "image": "https://i.imgur.com/8RAijsb.png"
+  }]

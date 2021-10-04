@@ -1,0 +1,24 @@
+.full-card {
+  background-color: #69b9ed;
+  position: relative;
+}
+.card-img {
+  overflow: hidden;
+}
+.hover-text {
+    display: none;
+    position: absolute;
+    top: 186px;
+    left: 1px;
+    color: #fff;
+    background: linear-gradient(
+45deg, black, transparent);
+    width: 363px;
+    height: 150px;
+}
+
+.full-card:hover .hover-text {
+  display: block;
+  text-align: center;
+  
+}

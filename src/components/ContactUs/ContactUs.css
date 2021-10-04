@@ -1,0 +1,15 @@
+form{
+    width:65%;
+    margin:0 auto;
+}
+.button{
+    color:#fff;
+    background-color:#072A5F;
+    border:none;
+    padding:10px 15px;
+    font-weight:600;
+}
+.button:hover{
+    background-color:#0096c7;
+    color:#fff;
+}
