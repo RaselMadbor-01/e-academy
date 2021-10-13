@@ -7,6 +7,8 @@ import {
   faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Feature.css";
+import CountUp from 'react-countup';
+
 
 const Feature = () => {
   const usersIcon = <FontAwesomeIcon icon={faUsers} />;
@@ -23,7 +25,9 @@ const Feature = () => {
                 <span className="icon">{usersIcon}</span>
               </div>
               <div>
-                <h1>10000+</h1>
+                <h1>
+                <CountUp end={1000} duration={2} />+
+                </h1>
                 <p className="m-0">Saticfied Students</p>
               </div>
             </div>
@@ -35,7 +39,7 @@ const Feature = () => {
                 <span className="icon">{bookIcon}</span>
               </div>
               <div>
-                <h1>14+</h1>
+                <h1> <CountUp end={14} duration={1} />+</h1>
                 <p className="m-0">Available Courses</p>
               </div>
             </div>
@@ -46,7 +50,7 @@ const Feature = () => {
                 <span className="icon">{graduationIcon}</span>
               </div>
               <div>
-                <h1>9000+</h1>
+                <h1> <CountUp end={900} duration={2} />+</h1>
                 <p className="m-0">Graduate Students</p>
               </div>
             </div>
@@ -57,7 +61,7 @@ const Feature = () => {
                 <span className="icon">{laptopIcon}</span>
               </div>
               <div>
-                <h1>5+</h1>
+                <h1> <CountUp end={5} duration={1} />+</h1>
                 <p className="m-0">Active Courses</p>
               </div>
             </div>

@@ -21,10 +21,10 @@ const AboutUs = () => {
           {members.map((member) => (
             <div key={member.id} >
                 <div className="col full-card rounded" >
-              <div className="card-img">
+              <div >
                 <img
                   src={member.image}
-                  className="img-fluid"
+                  className="img-fluid card-img"
                   alt=""
                 />
               </div>

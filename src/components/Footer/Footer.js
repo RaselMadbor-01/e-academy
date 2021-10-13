@@ -11,7 +11,7 @@ const Footer = () => {
   const addressIcon = <FontAwesomeIcon icon={faMapMarked} />;
   const phoneIcon = <FontAwesomeIcon icon={faPhoneAlt} />;
   return (
-    <div style={{ backgroundColor: "#072A5F", color: "#fff" }}>
+    <div style={{ backgroundColor: "#072A5F", color: "#fff" }} >
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

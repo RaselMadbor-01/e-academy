@@ -11,11 +11,14 @@ const ServicesSlider = () => {
   }, []);
   var settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    speed: 20000,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -44,8 +47,9 @@ const ServicesSlider = () => {
     ]
   };
   return (
-    <div className="container" style={{padding:"100px 0"}}>
+    <div style={{padding:"100px 25px"}}>
     <h2 className="text-center mb-5" style={{fontSize:"40px" ,fontWeight:"700" ,color:"#072A5F"}}>Our Services</h2>
+      <div>
       <Slider {...settings}>
         {products.map((product) => (
           <div key={product.id} >
@@ -65,6 +69,7 @@ const ServicesSlider = () => {
           </div>
         ))}
       </Slider>
+      </div>
     </div>
   );
 };

@@ -1,15 +1,15 @@
 import React from 'react';
 import image from "../../images/background/banner.png";
-import { Button } from "react-bootstrap";
+import 'animate.css';
 import "./Banner.css";
 
 const Banner = () => {
     return (
-        <div>
+        <div  style={{backgroundColor:"#072A5F" ,color:"#fff"}}>
             <div className="container">
         <div className="row row-cols-sm-1 row-cols-md-2 justify-content-center align-items-center">
-          <div className="col">
-            <h1 className="header-text">
+          <div className="col animate__animated animate__bounceInLeft">
+            <h1 className="header-text ">
               Online Learning <br /> Platforms
             </h1>
             <p>
@@ -19,14 +19,14 @@ const Banner = () => {
             </p>
             <button  class="view-button">View Course</button>
           </div>
-          <div className="col">
+          <div className="col animate__animated animate__backInRight">
             <img src={image} className="img-fluid" alt="" />
           </div>
         </div>
         
       </div>
       <div className="col-12">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fillOpacity="1" d="M0,320L34.3,314.7C68.6,309,137,299,206,266.7C274.3,235,343,181,411,176C480,171,549,213,617,218.7C685.7,224,754,192,823,181.3C891.4,171,960,181,1029,176C1097.1,171,1166,149,1234,122.7C1302.9,96,1371,64,1406,48L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L20,101.3C40,107,80,117,120,117.3C160,117,200,107,240,85.3C280,64,320,32,360,53.3C400,75,440,149,480,170.7C520,192,560,160,600,133.3C640,107,680,85,720,74.7C760,64,800,64,840,85.3C880,107,920,149,960,138.7C1000,128,1040,64,1080,64C1120,64,1160,128,1200,133.3C1240,139,1280,85,1320,74.7C1360,64,1400,96,1420,112L1440,128L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
         </div>
             
         </div>

@@ -1,24 +1,27 @@
 .full-card {
   background-color: #69b9ed;
   position: relative;
-}
-.card-img {
   overflow: hidden;
 }
 .hover-text {
-    display: none;
+  display: none;
     position: absolute;
-    top: 186px;
-    left: 1px;
     color: #fff;
-    background: linear-gradient(
-45deg, black, transparent);
-    width: 363px;
-    height: 150px;
+    background: linear-gradient( 
+    45deg, black, transparent);
 }
-
 .full-card:hover .hover-text {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  top: 1px;
   text-align: center;
-  
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: .25rem;
+}
+.full-card:hover .card-img{
+  transform:scale(1.3);
+  transition: transform 3s ease-in-out;
 }
